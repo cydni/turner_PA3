@@ -88,28 +88,28 @@ public class CAI {
     public static int generateMultiplicationQuestion(int difficultyLevel){ //Define separate method that generate user's question
 
         double answer;
-        int num1 = rand.nextInt(10);
-        int num2 = rand.nextInt(10);
+        int num1 = rand.nextInt(9)+1;
+        int num2 = rand.nextInt(9)+1;
         int numCorrectAnswersGiven = 0;
 
 
         switch(difficultyLevel) { //change the range of random numbers generated
 
             case 1:
-                num1 = rand.nextInt(10);
-                num2 = rand.nextInt(10);
+                num1 = rand.nextInt(9)+1;
+                num2 = rand.nextInt(9)+1;
                 break;
             case 2:
-                num1 = rand.nextInt(100);
-                num2 = rand.nextInt(100);
+                num1 = rand.nextInt(99)+1;
+                num2 = rand.nextInt(99)+1;
                 break;
             case 3:
-                num1 = rand.nextInt(1000);
-                num2 = rand.nextInt(1000);
+                num1 = rand.nextInt(999)+1;
+                num2 = rand.nextInt(999)+1;
                 break;
             case 4:
-                num1 = rand.nextInt(10000);
-                num2 = rand.nextInt(10000);
+                num1 = rand.nextInt(9999)+1;
+                num2 = rand.nextInt(9999)+1;
                 break;
             default:
                 System.out.println("ERROR in generateMultiplicationQuestion()");
@@ -135,28 +135,28 @@ public class CAI {
     public static int generateAdditionQuestion(int difficultyLevel){ //Define separate method that generate user's question
 
         double answer;
-        int num1 = rand.nextInt(10);
-        int num2 = rand.nextInt(10);
+        int num1 = rand.nextInt(9)+1;
+        int num2 = rand.nextInt(9)+1;
         int numCorrectAnswersGiven = 0;
 
 
         switch(difficultyLevel) { //change the range of random numbers generated
 
             case 1:
-                num1 = rand.nextInt(10);
-                num2 = rand.nextInt(10);
+                num1 = rand.nextInt(9)+1;
+                num2 = rand.nextInt(9)+1;
                 break;
             case 2:
-                num1 = rand.nextInt(100);
-                num2 = rand.nextInt(100);
+                num1 = rand.nextInt(99+1);
+                num2 = rand.nextInt(99)+1;
                 break;
             case 3:
-                num1 = rand.nextInt(1000);
-                num2 = rand.nextInt(1000);
+                num1 = rand.nextInt(999)+1;
+                num2 = rand.nextInt(999)+1;
                 break;
             case 4:
-                num1 = rand.nextInt(10000);
-                num2 = rand.nextInt(10000);
+                num1 = rand.nextInt(9999)+1;
+                num2 = rand.nextInt(9999)+1;
                 break;
             default:
                 System.out.println("ERROR in generateAdditionQuestion()");
@@ -182,28 +182,28 @@ public class CAI {
     public static int generateSubtractionQuestion(int difficultyLevel){ //Define separate method that generate user's question
 
         double answer;
-        int num1 = rand.nextInt(10);
-        int num2 = rand.nextInt(10);
+        int num1 = rand.nextInt(9)+1;
+        int num2 = rand.nextInt(9)+1;
         int numCorrectAnswersGiven = 0;
 
 
         switch(difficultyLevel) { //change the range of random numbers generated
 
             case 1:
-                num1 = rand.nextInt(10);
-                num2 = rand.nextInt(10);
+                num1 = rand.nextInt(9)+1;
+                num2 = rand.nextInt(9)+1;
                 break;
             case 2:
-                num1 = rand.nextInt(100);
-                num2 = rand.nextInt(100);
+                num1 = rand.nextInt(99)+1;
+                num2 = rand.nextInt(99)+1;
                 break;
             case 3:
-                num1 = rand.nextInt(1000);
-                num2 = rand.nextInt(1000);
+                num1 = rand.nextInt(999)+1;
+                num2 = rand.nextInt(999)+1;
                 break;
             case 4:
-                num1 = rand.nextInt(10000);
-                num2 = rand.nextInt(10000);
+                num1 = rand.nextInt(9999)+1;
+                num2 = rand.nextInt(9999)+1;
                 break;
             default:
                 System.out.println("ERROR in generateSubtractionQuestion()");
@@ -228,28 +228,28 @@ public class CAI {
     public static int generateDivisionQuestion(int difficultyLevel){ //Define separate method that generate user's question
 
         double answer;
-        int num1 = rand.nextInt(10);
-        int num2 = rand.nextInt(10);
+        int num1 = rand.nextInt(9)+1;
+        int num2 = rand.nextInt(9)+1;
         int numCorrectAnswersGiven = 0;
 
 
         switch(difficultyLevel) { //change the range of random numbers generated
 
             case 1:
-                num1 = rand.nextInt(10);
-                num2 = rand.nextInt(10);
+                num1 = rand.nextInt(9)+1;
+                num2 = rand.nextInt(9)+1;
                 break;
             case 2:
-                num1 = rand.nextInt(100);
-                num2 = rand.nextInt(100);
+                num1 = rand.nextInt(99)+1;
+                num2 = rand.nextInt(99)+1;
                 break;
             case 3:
-                num1 = rand.nextInt(1000);
-                num2 = rand.nextInt(1000);
+                num1 = rand.nextInt(999)+1;
+                num2 = rand.nextInt(999)+1;
                 break;
             case 4:
-                num1 = rand.nextInt(10000);
-                num2 = rand.nextInt(10000);
+                num1 = rand.nextInt(9999)+1;
+                num2 = rand.nextInt(9999)+1;
                 break;
             default:
                 System.out.println("ERROR in generateDivisionQuestion()");
